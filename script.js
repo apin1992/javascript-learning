@@ -8,7 +8,28 @@ const resultBox = document.getElementById('resultBox');
 const selectedGameName = document.getElementById('selectedGameName');
 
 // 2. Create our array to store the games
-let games = [];
+let games = [
+    "Chrono Trigger",
+    "Super Mario World",
+    "The Legend of Zelda: Ocarina of Time",
+    "Pokemon Emerald",
+    "Castlevania: Symphony of the Night",
+    "Metroid Fusion",
+    "Final Fantasy VII",
+    "Resident Evil 2",
+    "Silent Hill 2",
+    "Grand Theft Auto: San Andreas",
+    "Halo: Combat Evolved",
+    "Super Smash Bros. Melee",
+    "Metal Gear Solid",
+    "Sonic the Hedgehog 2",
+    "Paper Mario: The Thousand-Year Door",
+    "EarthBound",
+    "Dark Souls",
+    "Hollow Knight",
+    "Hades",
+    "Celeste"
+];
 
 // 3. Function to update what shows up on the screen
 function renderGames() {
