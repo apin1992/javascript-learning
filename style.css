@@ -138,3 +138,29 @@ li button {
 li button:hover {
     background: #dc2626;
 }
+/* Add these styles for game thumbnails */
+.game-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.game-thumb {
+    width: 45px;
+    height: 45px;
+    border-radius: 6px;
+    object-fit: cover;
+    background: #334155;
+}
+/* Styling for the picked game image */
+.result-img {
+    width: 100%;
+    max-width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 12px auto;
+    display: block;
+    box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
+    border: 1px solid #f472b6;
+}

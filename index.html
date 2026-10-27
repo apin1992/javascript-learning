@@ -12,18 +12,20 @@
         <h1>🎮 What Should I Play?</h1>
         <p class="subtitle">Can't decide? Let fate choose your next game.</p>
 
-        <!-- Input Area -->
+<!-- Input Area -->
         <div class="input-group">
-            <input type="text" id="gameInput" placeholder="Enter a game title (e.g., Chrono Trigger)...">
-            <button id="addBtn">Add Game</button>
+            <input type="text" id="gameInput" placeholder="Game title...">
+            <input type="text" id="imageInput" placeholder="Image URL (optional)...">
+            <button id="addBtn">Add</button>
         </div>
 
         <!-- The Big Picker Button -->
         <button id="pickBtn" class="pick-btn">🎲 Pick Random Game!</button>
 
-        <!-- Result Box -->
+<!-- Result Box -->
         <div id="resultBox" class="result-box hidden">
             <h3>✨ Tonight's Choice:</h3>
+            <img id="selectedGameImage" class="result-img" src="" alt="Selected Game Cover">
             <p id="selectedGameName">None yet!</p>
         </div>
 
