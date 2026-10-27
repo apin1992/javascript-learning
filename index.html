@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Game Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎮 What Should I Play?</h1>
+        <p class="subtitle">Can't decide? Let fate choose your next game.</p>
+
+        <!-- Input Area -->
+        <div class="input-group">
+            <input type="text" id="gameInput" placeholder="Enter a game title (e.g., Chrono Trigger)...">
+            <button id="addBtn">Add Game</button>
+        </div>
+
+        <!-- The Big Picker Button -->
+        <button id="pickBtn" class="pick-btn">🎲 Pick Random Game!</button>
+
+        <!-- Result Box -->
+        <div id="resultBox" class="result-box hidden">
+            <h3>✨ Tonight's Choice:</h3>
+            <p id="selectedGameName">None yet!</p>
+        </div>
+
+        <!-- Games List -->
+        <div class="list-section">
+            <h2>Your Backlog (<span id="gameCount">0</span>)</h2>
+            <ul id="gameList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
